@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/13-expense-tracker",
+  "homepage": "https://ishusharma-7.github.io/Expense-tracker/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
