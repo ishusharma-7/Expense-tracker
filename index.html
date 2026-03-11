@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Expense Tracker</title>
+
+
+  <script type="module" crossorigin src="/13-expense-tracker/assets/index-DlOTho5M.js"></script>
+  <link rel="stylesheet" crossorigin href="/13-expense-tracker/assets/index-D1ZbVva2.css">
+</head>
+
+<body>
+
+<div class="receipt">
+
+<h1>Expense Ledger</h1>
+<p class="shop">Personal Expense Tracker</p>
+<p id="date"></p>
+
+<hr>
+
+<div class="summary">
+
+<p>Balance : <span id="balance">₹0</span></p>
+<p>Income : <span id="income">₹0</span></p>
+<p>Expense : <span id="expense">₹0</span></p>
+
+</div>
+
+<hr>
+
+<form id="form">
+
+<input type="text" id="text" placeholder="Description">
+
+<input type="number" id="amount" placeholder="Amount (+income / -expense)">
+
+<button>Add Transaction</button>
+
+</form>
+
+<hr>
+
+<h3>Transaction History</h3>
+
+<ul id="transactions"></ul>
+
+</div>
+
+
+</body>
+
+</html>
